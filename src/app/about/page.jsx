@@ -12,8 +12,8 @@ const AboutPage = () => {
   return (
     <div className='flex flex-col lg:flex-row h-full w-[90%] m-auto p-4 sm:px-8 md:px-12 lg:px-20 gap-4 justify-center items-center'>
         <div className='mt-10 lg:w-1/2 flex flex-col gap-4 lg:gap-8'>
-          <h1 className='font-bold text-3xl md:text-5xl text-[#2B567F]'>About Us</h1>
-          <p className='md:text-lg pr-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, accusamus nesciunt obcaecati officia mollitia accusantium! Nisi asperiores nobis dolor, molestiae maiores sunt praesentium accusantium sed.</p>
+          <h1 className='font-bold text-3xl md:text-5xl text-[#2B567F] text-center'>About Us</h1>
+          <p className='md:text-lg pr-4 text-center'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, accusamus nesciunt obcaecati officia mollitia accusantium! Nisi asperiores nobis dolor, molestiae maiores sunt praesentium accusantium sed.</p>
           <div className='w-full flex flex-col sm:flex-row flex-wrap items-center gap-4 lg:gap-8 mt-4 justify-center'>
             <motion.div 
             initial={{opacity: 0}}
